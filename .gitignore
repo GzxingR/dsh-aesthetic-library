@@ -1,0 +1,15 @@
+# build output (contains inlined catalog derived from upstream skill; do not redistribute)
+lib/client.js
+lib/client.js.map
+render-preview.html
+preview*.png
+*.bak
+
+# user data
+library.json
+catalog.min.json
+
+# deps / OS
+node_modules/
+.DS_Store
+Thumbs.db

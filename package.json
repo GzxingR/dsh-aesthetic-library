@@ -1,0 +1,18 @@
+{
+  "name": "dsh-aesthetic-library",
+  "version": "0.1.0",
+  "description": "Aesthetic library tab for the DSH web Plugins page: browse 341 code-animation styles, pick to your personal library, export library.json.",
+  "type": "module",
+  "exports": {
+    ".": { "default": "./lib/index.js" },
+    "./client": { "default": "./lib/client.js" },
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" },
+    "client": { "platform": "web", "inject": ["@deepseek-ai/dsh-client-runtime"] }
+  },
+  "files": ["lib/index.js", "lib/client.js", "locale/*.json", "icon.svg", "cordis.patch.yml"],
+  "license": "MIT"
+}
