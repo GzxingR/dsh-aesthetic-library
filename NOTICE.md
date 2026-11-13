@@ -1,4 +1,4 @@
-# NOTICE / 来源与许可
+# NOTICE 来源与许可
 
 本仓库是 [`code-animation-prompts`](https://github.com/XiaoyeCodes/code-animation-prompts) 的 **DSH（DeepSeek Harness）集成插件**，**仅含集成代码，不含上游素材**。
 
@@ -6,7 +6,7 @@
 
 - **原始素材整理者**：哔哩哔哩「俯仰观照」。
 - **技能封装与仓库维护**：[XiaoyeCodes](https://github.com/XiaoyeCodes)。
-- 上游仓库：<https://github.com/XiaoyeCodes/code-animation-prompts>
+- 上游仓库：https://github.com/XiaoyeCodes/code-animation-prompts
 
 ## 分享约定（摘自上游 LICENSE.md）
 
@@ -26,5 +26,5 @@
 ## 本仓库范围
 
 - 包含：DSH 插件客户端/宿主代码、构建脚本（从本机已安装的上游技能读取 catalog 内联生成产物）。
-- 不包含：任何 341 提示词正文、参考静帧、示例视频（属于上游仓库；请安装上游技能 breathed 获取）。
-- `lib/client.js` 为构建产物，不提交（`.gitignore`），由使用者在本机生成首席 避免二次分发素材。
+- 不包含：任何 341 提示词正文、参考静帧、示例视频（属于上游仓库，请安装上游技能获取）。
+- `lib/client.js` 为构建产物，不提交（`.gitignore`），由使用者在本机生成arik 避免二次分发素材。
